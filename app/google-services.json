@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "92975717012",
+    "firebase_url": "https://bakici-sosyal-platformu.firebaseio.com",
+    "project_id": "bakici-sosyal-platformu",
+    "storage_bucket": "bakici-sosyal-platformu.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:92975717012:android:60baad1534d61d0b",
+        "android_client_info": {
+          "package_name": "com.erkutkaralar.aile_bakicisosyalplatformu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "92975717012-qtbius3epuei44nveb1v04bl51ta2m16.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.erkutkaralar.aile_bakicisosyalplatformu",
+            "certificate_hash": "7826004227b3de93f409eb1a110f0a1a1f6570a0"
+          }
+        },
+        {
+          "client_id": "92975717012-ka4rj3q85p7459e3ij4ven28bkk9e4ap.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnEPIHQc-YUdNYjL_2RtcnsuQ3b3uDx4g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "92975717012-ka4rj3q85p7459e3ij4ven28bkk9e4ap.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
