@@ -85,7 +85,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textSurname" />
 
     <TextView
-        android:id="@+id/TextAge"
+        android:id="@+id/TextAgeRange"
         android:layout_width="145dp"
         android:layout_height="20dp"
         android:layout_marginStart="8dp"
@@ -102,7 +102,7 @@
         app:layout_constraintTop_toBottomOf="@+id/TextCity" />
 
     <TextView
-        android:id="@+id/TextSchool"
+        android:id="@+id/TextSchoolStatus"
         android:layout_width="145dp"
         android:layout_height="20dp"
         android:layout_marginStart="8dp"
@@ -116,7 +116,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.079"
         app:layout_constraintStart_toEndOf="@+id/imageViewCustomView"
-        app:layout_constraintTop_toBottomOf="@+id/TextAge" />
+        app:layout_constraintTop_toBottomOf="@+id/TextAgeRange" />
 
     <TextView
         android:id="@+id/TextDescription"
@@ -139,8 +139,8 @@
         android:layout_marginBottom="8dp"
         android:hint="Email"
         app:layout_constraintBottom_toTopOf="@+id/TextDescription"
-        app:layout_constraintStart_toStartOf="@+id/TextSchool"
-        app:layout_constraintTop_toBottomOf="@+id/TextSchool"
+        app:layout_constraintStart_toStartOf="@+id/TextSchoolStatus"
+        app:layout_constraintTop_toBottomOf="@+id/TextSchoolStatus"
         app:layout_constraintVertical_bias="0.04" />
 
 </android.support.constraint.ConstraintLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="410dp"
+        android:layout_height="40dp"
+        android:background="@color/colorPrimary"
+        android:includeFontPadding="true"
+        android:text=""
+        android:textAlignment="center"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        app:fontFamily="sans-serif-black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="145dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toStartOf="@+id/textSurname"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textSurname"
+        android:layout_width="145dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:ems="10"
+        android:hint="Surname"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/TextCity"
+        android:layout_width="145dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="City"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/textName"
+        app:layout_constraintStart_toStartOf="@+id/textName"
+        app:layout_constraintTop_toBottomOf="@+id/textName" />
+
+    <TextView
+        android:id="@+id/TextAgeRange"
+        android:layout_width="145dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/textSurname"
+        app:layout_constraintStart_toStartOf="@+id/textSurname"
+        app:layout_constraintTop_toBottomOf="@+id/textSurname" />
+
+    <TextView
+        android:id="@+id/TextSchoolStatus"
+        android:layout_width="145dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="School"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/TextCity"
+        app:layout_constraintStart_toStartOf="@+id/TextCity"
+        app:layout_constraintTop_toBottomOf="@+id/TextCity" />
+
+    <TextView
+        android:id="@+id/TextDescription"
+        android:layout_width="327dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Description"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/TextEndDate"
+        app:layout_constraintStart_toStartOf="@+id/TextStartingDate"
+        app:layout_constraintTop_toBottomOf="@+id/TextStartingDate" />
+
+    <TextView
+        android:id="@+id/TextStartingDate"
+        android:layout_width="145dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="16dp"
+        android:hint="Starting Date"
+        app:layout_constraintEnd_toEndOf="@+id/TextSchoolStatus"
+        app:layout_constraintStart_toStartOf="@+id/TextSchoolStatus"
+        app:layout_constraintTop_toBottomOf="@+id/TextSchoolStatus" />
+
+    <TextView
+        android:id="@+id/TextEndDate"
+        android:layout_width="145dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="16dp"
+        android:hint="End Date"
+        app:layout_constraintEnd_toEndOf="@+id/textGender"
+        app:layout_constraintStart_toStartOf="@+id/textGender"
+        app:layout_constraintTop_toBottomOf="@+id/textGender" />
+
+    <TextView
+        android:id="@+id/textGender"
+        android:layout_width="145dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="16dp"
+        android:hint="Gender"
+        app:layout_constraintEnd_toEndOf="@+id/TextAgeRange"
+        app:layout_constraintStart_toStartOf="@+id/TextAgeRange"
+        app:layout_constraintTop_toBottomOf="@+id/TextAgeRange" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".isIlani">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="410dp"
+        android:layout_height="58dp"
+        android:background="@color/colorPrimaryDark"
+        android:includeFontPadding="true"
+        android:text="Job Creation"
+        android:textAlignment="center"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        app:fontFamily="sans-serif-black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/textName"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/textSurname"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:ems="10"
+        android:hint="Surname"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.315"
+        app:layout_constraintStart_toEndOf="@+id/textName"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/TextCity"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="City"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/textName"
+        app:layout_constraintStart_toStartOf="@+id/textName"
+        app:layout_constraintTop_toBottomOf="@+id/textName" />
+
+    <EditText
+        android:id="@+id/TextAgeRange"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint=" Age Range"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/textSurname"
+        app:layout_constraintStart_toStartOf="@+id/textSurname"
+        app:layout_constraintTop_toBottomOf="@+id/textSurname" />
+
+    <EditText
+        android:id="@+id/TextSchoolStatus"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Educational Status"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/TextCity"
+        app:layout_constraintStart_toStartOf="@+id/TextCity"
+        app:layout_constraintTop_toBottomOf="@+id/TextCity" />
+
+    <EditText
+        android:id="@+id/TextDescription"
+        android:layout_width="318dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Description"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/TextGender"
+        app:layout_constraintStart_toStartOf="@+id/TextSchoolStatus"
+        app:layout_constraintTop_toBottomOf="@+id/TextSchoolStatus" />
+
+    <Button
+        android:id="@+id/buttonCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="Create"
+        android:text="Create"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/TextEndD"
+        app:layout_constraintStart_toStartOf="@+id/TextEndD"
+        app:layout_constraintTop_toBottomOf="@+id/TextEndD" />
+
+    <EditText
+        android:id="@+id/TextGender"
+        android:layout_width="150dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Gender"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/TextAgeRange"
+        app:layout_constraintStart_toStartOf="@+id/TextAgeRange"
+        app:layout_constraintTop_toBottomOf="@+id/TextAgeRange" />
+
+    <EditText
+        android:id="@+id/TextStartingD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint=" Starting Date"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/TextDescription"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="@+id/TextDescription"
+        app:layout_constraintTop_toBottomOf="@+id/TextDescription" />
+
+    <EditText
+        android:id="@+id/TextEndD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="End Date "
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/TextStartingD"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/TextStartingD"
+        app:layout_constraintTop_toBottomOf="@+id/TextStartingD" />
+
+</android.support.constraint.ConstraintLayout>

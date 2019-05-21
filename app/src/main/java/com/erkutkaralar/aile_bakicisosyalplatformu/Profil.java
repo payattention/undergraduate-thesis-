@@ -71,8 +71,8 @@ public class Profil extends AppCompatActivity {
         userNameText = findViewById(R.id.textName);
         userSurnameText = findViewById(R.id.textSurname);
         cityText = findViewById(R.id.TextCity);
-        ageText = findViewById(R.id.TextAge);
-        schoolText = findViewById(R.id.TextSchool);
+        ageText = findViewById(R.id.TextAgeRange);
+        schoolText = findViewById(R.id.TextSchoolStatus);
         descriptionText = findViewById(R.id.TextDescription);
         mAuth = FirebaseAuth.getInstance();
 

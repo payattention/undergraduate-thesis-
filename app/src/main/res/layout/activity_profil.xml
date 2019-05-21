@@ -70,7 +70,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textName" />
 
     <EditText
-        android:id="@+id/TextAge"
+        android:id="@+id/TextAgeRange"
         android:layout_width="164dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -81,7 +81,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textSurname" />
 
     <EditText
-        android:id="@+id/TextSchool"
+        android:id="@+id/TextSchoolStatus"
         android:layout_width="142dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -99,8 +99,8 @@
         android:ems="10"
         android:hint="Description"
         android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="@+id/TextSchool"
-        app:layout_constraintTop_toBottomOf="@+id/TextSchool" />
+        app:layout_constraintStart_toStartOf="@+id/TextSchoolStatus"
+        app:layout_constraintTop_toBottomOf="@+id/TextSchoolStatus" />
 
     <Button
         android:id="@+id/button3"

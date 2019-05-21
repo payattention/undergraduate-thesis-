@@ -12,15 +12,32 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/NoTheme">
-        <activity android:name=".ShowProfile"
-            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
-            android:launchMode="singleTop">
+        <activity
+            android:name=".ShowJobs"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.SEARCH" />
             </intent-filter>
-            <meta-data android:name="android.app.searchable"
-                android:resource="@xml/searchable"/>
+
+            <meta-data
+                android:name="android.app.searchable2"
+                android:resource="@xml/searchable2" />
         </activity>
+        <activity android:name=".isIlani" />
+        <activity
+            android:name=".ShowProfile"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+
         <activity android:name=".Profil" />
         <activity
             android:name=".anaSayfa"

@@ -40,4 +40,18 @@ public class anaSayfa extends AppCompatActivity {
 
     }
 
+    public void showCreateIsIlani (View view){
+
+        Intent intent = new Intent(getApplicationContext(),isIlani.class);
+        startActivity(intent);
+
+    }
+
+    public void showJob (View view){
+
+        Intent intent = new Intent(getApplicationContext(),ShowJobs.class);
+        startActivity(intent);
+
+    }
+
 }
